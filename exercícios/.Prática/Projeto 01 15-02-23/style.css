@@ -1,0 +1,80 @@
+body{
+    background-color:#7A4626;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color:#7A4613;
+    color: white;
+    text-align: center;
+    width: auto;
+    
+}
+h2{
+    background-color: #7A4626;
+    color: white;
+}
+
+.conteudo{
+    background-color: #7A4613;
+    text-align: center;
+}
+
+main{
+    background-color: beige;
+    text-align: justify;
+    padding: 1px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+section > h2{
+    background-color: #7A4613;
+    text-align: center;
+}
+section{
+    background-color: beige;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+.paragrafo2{
+    color: black;
+    text-align: justify;
+}
+.paragrafo3{
+    color: black;
+    text-align:center ;
+    font-weight: bold;
+}
+.pagseguinte{
+    color: white;
+    text-align: right;
+}
+
+ul > li{
+    color: white;
+}
+.quatrohab >li{
+    color: black;
+}
+
+li > a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+.site2 > a{
+    color: rgb(21, 207, 15);
+    font-weight: bold;
+}
+iframe{
+    background-color: black;
+    margin:0px 62px 0px 41px;
+}
+footer{
+    text-align: right;
+}

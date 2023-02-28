@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 12-02-23</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Prática 12-02-23</h1>
+    <h2>Como adicionar áudios e vídeos:</h2>
+    <h3>Áudio:</h3>
+    <p><A>Ouça o áudio abaixo</A></p>
+    <audio preload="metadata" controls autoplay loop><!--Parametros de audio:(Preload-metadata= carregar apenas as informações sobre o arquivo (tamanho,tempo, informações de direitos)(controls=para adicionar os controles de play)  (autoplay=assim que abrir o site ja tocar o audio) (loop=para quando acabar o audio retornar a tocar)-->
+<source src="audios/Joy To The World - DJ Williams.mp3" type="audio/mpeg"><!--Usa a tag <audio> <source src> </audio>....IMPORTANTE(não esquecer de colocar o tipo de audio na tag (TYPE="#") e sempre adicionar mais formatos de audio: mp3(mpeg),ogg(ogg),wav(wav)) -->    </audio>
+    <h3>Vídeos:</h3>
+    <p>Veja o vídeo abaixo</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iMe4r4j4FG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--Adicionar video = (Incorpar o codigo do compartilhamento)-->
+    <!--Vídeos adicionado externo (fora do site)-->
+    <h2>Como adicionar emojis e símbolos:</h2>
+    <h3>Emojis:</h3>
+    <p>&#x2764   &#x1F648  &#x1F3C6 </p>
+    <!--Adicionar emojis= (&#x mais o código do emoji)-->
+    <h3>Símbolos:</h3>
+   <p>&euro;   &dollar;   &reg;   &copy;</p>
+    <!--Adicionar símbolos = (& mais o codigo do simbolo)-->
+    
+</body>
+</html>
