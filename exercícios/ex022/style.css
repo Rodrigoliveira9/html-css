@@ -89,3 +89,25 @@ body.fundo005{
     height: 98vh;
     background-position: center center;
 }
+
+/* fundo 006 */
+
+body.fundo006{
+    height: 100vh;
+    background-color: black;
+    background-image: url('imagens/wallpaper002.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed
+    ;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
