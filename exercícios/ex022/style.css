@@ -9,22 +9,83 @@ div.quadrado{
     height: 300px;
 }
 
-body{
+/* fundo001 */
+
+body.fundo001{
     background-image: url('imagens/wallpaper001.jpg');
 
 }
-
-div#q1{
+/* substitui o (q) de quadro por (b) */
+div#b1{
     background-color:green;
 
 }
 
-div#q2{
+div#b2{
     background-image: linear-gradient(to bottom, yellow, red);
 
 }
 
-div#q3{ 
+div#b3{ 
     background-image: url('imagens/pattern001.png');
 
+}
+
+/* fundo002 */
+
+body.fundo002{
+    background-image: url('imagens/pattern004.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    
+}
+
+/* fundo003 */
+
+div.bloco{
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('imagens/wallpaper003.jpg');
+}
+
+div#q1{
+    background-position: left top;
+
+}
+
+div#q2{
+    background-position: left center;
+
+}
+
+div#q3{
+    background-position: right bottom;
+
+}
+
+div#q4{
+    background-position: center center;
+
+}
+
+/*fundo004 */
+
+body.fundo004{
+    background-image: url('https://gustavoguanabara.github.io/images/mascote-html5.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height: 98vh;
+    border: 1px solid black;
+}
+
+/* fundo005 */
+
+body.fundo005{
+    background-image: url('imagens/wallpaper002.jpg');
+    height: 98vh;
+    background-position: center center;
 }
